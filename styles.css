@@ -1,0 +1,56 @@
+.flex-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+}
+
+.pricing-container {
+    background-color: #bc8f6c;
+    color: bisque;
+    text-align: center;
+    min-width: 400px;
+    font-family: "Covered By Your Grace", serif;
+    font-size: 1.5rem;
+    min-height: 375px;
+    border-radius: 7px;
+    padding: 25px;
+    
+}
+
+.plan-title {
+    font-size: 2rem;
+    
+}
+
+.plan-price {
+    font-size: 3rem;    
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+button {
+    border-radius: 12px;
+    border: none;
+    font-size: x-large;
+    font-weight: bolder;
+    background-color: gold;
+    font-family: "Covered By Your Grace", serif;
+    width: 150px;
+    height: 50px;
+}
+
+body {
+    background-image: url(./35042.jpg);
+}
+
+@media (max-width: 1250px) {
+    .flex-container {
+        flex-direction: column;
+        height: 100%;
+    }
+}
