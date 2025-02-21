@@ -7,15 +7,16 @@
 }
 
 .pricing-container {
-    background-color: #bc8f6c;
-    color: bisque;
+    background-color: #ffd1dc;
+    color: #ff69b4;
     text-align: center;
     min-width: 375px;
     font-family: "Covered By Your Grace", serif;
     font-size: 1.5rem;
     min-height: 375px;
+    max-height: 375px;
     border-radius: 7px;
-    padding: 25px;
+    padding: 20px;
     
 }
 
@@ -38,14 +39,15 @@ button {
     border: none;
     font-size: x-large;
     font-weight: bolder;
-    background-color: gold;
+    background-color: #fffacd;
+    color: #ff69b4;
     font-family: "Covered By Your Grace", serif;
     width: 150px;
     height: 50px;
 }
 
 body {
-    background-image: url(./35042.jpg);
+    background-image: url(./pink-background.jpg);
 }
 
 footer {
